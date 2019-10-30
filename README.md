@@ -1,2 +1,2 @@
 # fizzBuzz
-Small JavaScript fizz buzz thing.
+Small JavaScript to solve fizz buzz.
