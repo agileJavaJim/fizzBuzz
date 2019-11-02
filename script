@@ -4,7 +4,7 @@
 
 <p>Enter a Number and click the button to play Fizz Buzz:</p>
 
-<button onclick="fizzBuzz()">Enter Number</button><input id="numb">
+<button onclick="fizzBuzz()">Enter Number</button><input id="numb" placeholder="Fizz Buzz Game">
 
 <p id="round"></p>
 
@@ -14,7 +14,10 @@ num = document.getElementById("numb").value;
   var x = 3;
   var y = 5;
   var answer;
-  if (num % x == 0 && num % y == 0) {
+  if(num = "Fizz Buzz Game"){
+    answer = "Enter a Number";
+  }
+  else if (num % x == 0 && num % y == 0) {
     answer = "Fizz Buzz";
   } 
   else if(num % x == 0){
