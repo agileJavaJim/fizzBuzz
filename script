@@ -14,10 +14,7 @@ num = document.getElementById("numb").value;
   var x = 3;
   var y = 5;
   var answer;
-  if(num = "Fizz Buzz Game"){
-    answer = "Enter a Number";
-  }
-  else if (num % x == 0 && num % y == 0) {
+  if (num % x == 0 && num % y == 0) {
     answer = "Fizz Buzz";
   } 
   else if(num % x == 0){
